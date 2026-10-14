@@ -1,0 +1,55 @@
+{
+  "name": "smart-hybrid-search",
+  "version": "1.0.0",
+  "description": "Smart semantic + hybrid search with multi-step spelling correction for Arabic, French and English — BM25 + concepts + fuzzy + popularity, zero dependencies, framework-agnostic",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/",
+    "example": "node examples/01-node-basic.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "search",
+    "hybrid-search",
+    "semantic-search",
+    "spell-check",
+    "spelling-correction",
+    "fuzzy-search",
+    "bm25",
+    "arabic",
+    "french",
+    "multilingual",
+    "ecommerce",
+    "autocomplete"
+  ],
+  "author": "ammisaidkaidi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ammisaidkaidi/smart-hybrid-search.git"
+  },
+  "homepage": "https://github.com/ammisaidkaidi/smart-hybrid-search#readme",
+  "bugs": {
+    "url": "https://github.com/ammisaidkaidi/smart-hybrid-search/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
